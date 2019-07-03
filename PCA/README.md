@@ -2,7 +2,8 @@
 
 For this project, we use PCA to reduce the dimensionality of our dataset, and we are interested to see if there is any natural grouping among our dataset that aligns with their attributes. In this case: continent level, region level, and income group level.  On top of PCA, we run Kmeans to see if Kmeans clustering agrees with the clustering and see if machine learning can pick up anything else that is shared between countries. 
 
-We retreieved region and income level information from UN's country classification dataset. https://www.un.org/en/development/desa/policy/wesp/wesp_current/2014wesp_country_classification.pdf
+We retreieved region and income level information from UN's country classification dataset. 
+https://datahelpdesk.worldbank.org/knowledgebase/articles/906519
 
 https://nbviewer.jupyter.org/github/FrankOnBeach/WWF/blob/master/PCA/PCA%20Analysis%20.ipynb for plotly embedded Jupyter Notebook. 
 
