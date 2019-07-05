@@ -2,7 +2,8 @@
 
 For this project, we use PCA to reduce the dimensionality of our dataset, and we are interested to see if there is any natural grouping among our dataset that aligns with their attributes. In this case: continent level, region level, and income group level.  On top of PCA, we run Kmeans to see if Kmeans clustering agrees with the clustering and see if machine learning can pick up anything else that is shared between countries. 
 
-We retreieved region and income level information from UN's country classification dataset. https://www.un.org/en/development/desa/policy/wesp/wesp_current/2014wesp_country_classification.pdf
+We retreieved region and income level information from UN's country classification dataset. 
+https://datahelpdesk.worldbank.org/knowledgebase/articles/906519
 
 https://nbviewer.jupyter.org/github/FrankOnBeach/WWF/blob/master/PCA/PCA%20Analysis%20.ipynb for plotly embedded Jupyter Notebook. 
 
@@ -34,7 +35,7 @@ Based on previous analyses, countries' natural clustering aligns best with the i
 - **pca_health.csv**:
   - Result file. This file includes Principal componenet 1 and 2 computed using grouped protein foods data along with health data, the data used in computing pca,  and the clusters K means assigned the datapoint to.
 - **CLASS.xls**:
-  - Source file. This file contains country classification data from UN. https://www.un.org/en/development/desa/policy          /wesp/wesp_current/2014wesp_country_classification.pdf
+  - Source file. This file contains country classification data from UN. https://datahelpdesk.worldbank.org/knowledgebase/articles/906519 Using 2012 data
 - **NUTRITION_HA_2.csv**:
   - Source file. This file contains stunting percentage of children under 5 years old. This dataset is from WHO.  
 - **NUTRITION_WH2.csv.csv**:
