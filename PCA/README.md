@@ -7,23 +7,26 @@ https://datahelpdesk.worldbank.org/knowledgebase/articles/906519
 
 https://nbviewer.jupyter.org/github/FrankOnBeach/WWF/blob/master/PCA/PCA%20Analysis%20.ipynb for plotly embedded Jupyter Notebook. 
 
-## Analysis 1
+## Analysis Part 1
+
+### Analysis 1
 
 In our second analysis, we are interested to see if countries cluster together based solely on protein food balance sheet data. This incluses Milk, Bovine meat, Sheep and goat meat, Pigmeat, Poultry, Eggs, Fish, Maize, Rice, Wheat, Rye, Barley, Pulses, Starchy roots on continent region and income group level. 
 
 
-## Analysis 2
+### Analysis 2
 
 In our second analysis, we are interested to see if countries cluster together based on protein food balance sheet data and some selected socioeconomic variables. We group protein foods into groups and introduce three new variables which are Average GDP, Urban and rural ratio(urban population/rural population), and permenent crops ratio(permenent crops area/total country area). This result into 'Bovine_Sheep_Pigmeat_Poultry','Cereals','Milk_Egg','Fish',' Av 2011+2012+2013 extracted from WDI (constant 2010 US$)','Urban_Rural_ratio','Permenent_Crops_Ratio'as variables.
 
-## Analysis 3
+### Analysis 3
 
 In our third analysis, we are interested to see if countries cluster together based on protein food balance sheet data and child health data. We group protein foods into groups and introduce two new variables which are children under 5 years old stunting rate and overweight rate. This data is extracted from http://apps.who.int/gho/data/node.main.CHILDSTUNTED?lang=en.  This result into 'Bovine_Sheep_Pigmeat_Poultry','Cereals','Milk_Egg','Fish','stunting(percentage)', 'overweight(percentage)' as variables. 
 
-## Analysis 4
+### Analysis 4
 
 Based on previous analyses, countries' natural clustering aligns best with the in come group level. The plots show that low-middle income are often clustered together by k means. We are interested to see if a lower number of clusters(3) will yield a better result. 
 
+## Analysis Part 2 
 
 ## Datasets Inventory
 - **master_final_merged_df_protein_gdp.csv**:
