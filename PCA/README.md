@@ -1,4 +1,4 @@
-# Principal Component Analysis(PCA) on DHS Food Balance Sheet Data with Socioeconomic Data.
+# Principal Component Analysis(PCA) on DHS Food Balance Sheet with Socioeconomic Data.
 
 For this project, we use PCA to reduce the dimensionality of our dataset, and we are interested to see if there is any natural grouping among our dataset that aligns with their attributes. In this case: continent level, region level, and income group level.  On top of PCA, we run Kmeans to see if Kmeans clustering agrees with the clustering and see if machine learning can pick up anything else that is shared between countries. 
 
