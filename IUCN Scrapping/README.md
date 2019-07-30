@@ -1,4 +1,4 @@
-This project aims to cross-check IUCN's threat list with Google Scholar.
+This project aims to cross-check IUCN's red-list threat data with Google Scholar.
 
 ## Challenges
 After poking around. It seems the problems are
