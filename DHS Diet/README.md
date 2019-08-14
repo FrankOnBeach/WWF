@@ -33,6 +33,7 @@ Different models were used in this project including K Nearest Neighbors, Decisi
 We achieved an accuracy score around 50% when testing the model on the test set, also a similar core while using cross validation. We further attempted to improve the model by fine tuning the hyperparameters. This helped us slightly increase the accuracy. 
 
 ## Future Work
+First, We should try to group some of the food items together. 
 
 So far, we've been only working on the grouped dataset. It would be interesting to work on the individual data. This would potentially give us a better result since the outcome variable will be binary as in whether the household feed the child with this item. Secondly, we can use other information from the survey as new features so that we are not limited to regional and global datasets. 
 
